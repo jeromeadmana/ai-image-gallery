@@ -19,6 +19,7 @@ const allowedOrigins = [
   'https://localhost:3001',
   'https://localhost:5173',
   'https://aiimagegallery.vercel.app',
+  'https://ai-image-gallery-seven.vercel.app',
 ];
 
 app.use(cors({
