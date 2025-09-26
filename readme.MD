@@ -50,7 +50,11 @@ ai-image-gallery/
    cd frontend
    npm install
    ```
-3. Start the frontend dev server:
+3. Install Tailwind (if not already installed correctly):
+   ```
+   npm install tailwindcss @tailwindcss/vite
+   ```
+4. Start the frontend dev server:
    ```
    npm run dev
    ```
