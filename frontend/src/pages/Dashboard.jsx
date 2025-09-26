@@ -2,8 +2,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { useLocation } from "react-router-dom";
 import { logout } from "../services/authService";
-import UserMenu from "../components/UserMenu";
-import GalleryImage from "../components/GalleryImage";
+import UserMenu from "../components/userMenu";
+import GalleryImage from "../components/galleryImage";
 
 const API_URL = import.meta.env.VITE_API_URL;
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
