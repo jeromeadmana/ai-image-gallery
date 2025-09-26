@@ -61,8 +61,7 @@ ai-image-gallery/
 
 ## Scripts
 
-- `npm start` (backend): Start API server
-- `npm run dev` (frontend): Start React dev server
+- `npm run start` from the parent folder
 
 ## Environment Variables
 

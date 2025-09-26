@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:api": "node src/index.js",
-    "start:worker": "node src/workers/aiWorker.js",
+    "start": "node index.js",
     "dev": "concurrently \"npm run start:api\" \"npm run start:worker\""
   },
   "keywords": [],
