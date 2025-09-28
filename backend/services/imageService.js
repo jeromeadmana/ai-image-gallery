@@ -1,6 +1,5 @@
 import fs from "fs";
 import sharp from "sharp";
-import { createClient } from "@supabase/supabase-js";
 import OpenAI from "openai";
 import { setTimeout as delay } from "node:timers/promises";
 
