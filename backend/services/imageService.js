@@ -100,8 +100,4 @@ Image URL: ${imageUrl}`;
   }
 };
 
-export default {
-  processAndUpload,
-  deleteFromStorage,
-  analyzeImage,
-};
+export default { processAndUpload, deleteFromStorage, analyzeImage };
